@@ -18,7 +18,7 @@ body {
 header {
     grid-area: header;
     display: inline;
-    background-color: #219CFF;
+    background-color: #7477bf;
     max-height: 5em;
     color: #ffffff;
     padding: 20px 0px;
@@ -52,7 +52,7 @@ header .bell-container {
     border-radius: 50%;
     height: 0.75rem;
     width: 0.75rem;
-    background-color: #8421FF;
+    background-color: #81c98f;
 }
 
 .bell-icon {
@@ -92,7 +92,7 @@ header .username {
 
 nav {
     grid-area: navigation;
-    background: #15629F;
+    background: #4d4c72;
 }
 
 nav ul {
@@ -138,7 +138,7 @@ nav ul li {
 
 .alert-banner {
     display: flex;
-    background-color: #219CFF;
+    background-color: #7477bf;
     color: #ffffff;
     padding: 0 1em;
     justify-content: space-between;
@@ -173,11 +173,11 @@ main h3 {
 }
 
 a {
-    color: #219CFF;
+    color: #7477bf;
 }
 
 a:hover {
-    color: #15629F;
+    color: #4d4c72;
 }
 
 /* chart widgets */
@@ -192,7 +192,7 @@ a:hover {
 }
 
 .traffic-nav li:nth-child(1) {
-    background-color: #8421FF;
+    background-color: #81c98f;
     color: #ffffff;
     border-radius: 5px;
 }
@@ -240,7 +240,7 @@ a:hover {
 }
 
 .social-media-name {
-    color: #219CFF;
+    color: #7477bf;
     font-weight: 600;
     font-size: 20px;
     padding: 0;
@@ -318,7 +318,7 @@ a:hover {
     margin: 0px 20px 20px 20px;
     width: 90%;
     height: 60px;
-    background-color: #219CFF;
+    background-color: #7477bf;
     color: #ffffff;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
@@ -347,7 +347,7 @@ a:hover {
     margin: 0px;
     width: 40%;
     height: 60px;
-    background-color: #219CFF;
+    background-color: #7477bf;
     color: #ffffff;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
@@ -402,7 +402,7 @@ a:hover {
 }
 
 .toggle-switch:checked {
-    background-color: #219CFF;
+    background-color: #7477bf;
 }
 
 .toggle-switch:checked::after {
@@ -674,10 +674,11 @@ a:hover {
 
 @media (min-width: 1024px) {
     .grid-container {
-    grid-template-columns: 70px 1fr;
-    grid-template-areas:
-    "header header"
-    "navigation main";
+        grid-template-columns: 70px 1fr;
+        grid-template-areas:
+            "header header"
+            "navigation main";
+        max-width: 1024px;
     }
 
     main {
@@ -691,6 +692,7 @@ a:hover {
             "social-stats social-stats"
             "new-members recent-activity"
             "message settings";
+        max-width: 1024px;
     }
 
     .main-header {
@@ -750,7 +752,6 @@ a:hover {
         border-radius: 50%;
         height: 1rem;
         width: 1rem;
-        background-color: #8421FF;
     }
 
     /* main header */
