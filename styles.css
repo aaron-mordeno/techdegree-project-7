@@ -679,6 +679,7 @@ a:hover {
             "header header"
             "navigation main";
         max-width: 1024px;
+        margin: 0 auto;
     }
 
     main {
@@ -692,7 +693,6 @@ a:hover {
             "social-stats social-stats"
             "new-members recent-activity"
             "message settings";
-        max-width: 1024px;
     }
 
     .main-header {
